@@ -1,0 +1,522 @@
+[16:52:43] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[16:52:43] [Server thread/INFO]: Loading properties
+[16:52:43] [Server thread/INFO]: Default game type: SURVIVAL
+[16:52:43] [Server thread/INFO]: Generating keypair
+[16:52:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:52:43] [Server thread/INFO]: Using default channel type
+[16:52:44] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-809c399 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[16:52:44] [Server thread/INFO]: [[IGSpawners]] Loading IGSpawners v1.0
+[16:52:44] [Server thread/INFO]: Preparing level "world"
+[16:52:45] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6816110133522607082)
+[16:52:46] [Server thread/INFO]: Preparing spawn area: 29%
+[16:52:47] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6816110133522607082)
+[16:52:48] [Server thread/INFO]: Preparing spawn area: 97%
+[16:52:48] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6816110133522607082)
+[16:52:48] [Server thread/INFO]: [[IGSpawners]] Enabling IGSpawners v1.0
+[16:52:48] [Server thread/ERROR]: Error occurred while enabling IGSpawners v1.0 (Is it up to date?)
+java.lang.NullPointerException: null
+	at xyz.mglolenstine.igspawners.IGSpawners.onEnable(IGSpawners.java:53) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:329) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:368) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:329) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:412) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:373) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:328) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:248) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:522) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+[16:52:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:52:48] [Server thread/INFO]: Done (4,050s)! For help, type "help" or "?"
+[16:54:12] [User Authenticator #1/INFO]: UUID of player Kwagnus is b14b5dd3-dc19-4d8b-8356-42f70fad1369
+[16:54:13] [Server thread/INFO]: Kwagnus[/84.192.169.90:63228] logged in with entity id 328 at ([world]220.39954420378334, 25.0, 235.69999998807907)
+[16:55:44] [Server thread/INFO]: Kwagnus issued server command: /tp ~ 70 ~~
+[16:55:44] [Server thread/INFO]: [Kwagnus: '~' is not a valid number]
+[16:55:45] [Server thread/INFO]: Kwagnus issued server command: /tp ~ 70 ~
+[16:55:45] [Server thread/INFO]: [Kwagnus: Teleported Kwagnus to 220.75943992896444, 70.0, 235.60010080745198]
+[16:58:20] [Server thread/INFO]: Kwagnus has made the advancement [Monster Hunter]
+[16:58:20] [User Authenticator #2/INFO]: UUID of player MGlolenstine is a6804638-dc5e-404d-b050-60bc37e4ce1e
+[16:58:20] [Server thread/INFO]: MGlolenstine[/84.41.35.2:63815] logged in with entity id 3059 at ([world]244.4128235551169, 71.0, 245.11648289415896)
+[16:58:30] [Server thread/INFO]: MGlolenstine issued server command: /kill @e[type=pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:30] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[16:58:33] [Server thread/INFO]: MGlolenstine issued server command: /kill @e[type=item]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.egg]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.arrow]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.bone]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.seeds]
+[16:58:33] [Server thread/INFO]: [MGlolenstine: Killed item.item.egg]
+[16:58:36] [Server thread/INFO]: Kwagnus issued server command: /tp ~ 70 ~
+[16:58:36] [Server thread/INFO]: [Kwagnus: Teleported Kwagnus to 190.00283245615432, 70.0, 221.01472962054015]
+[16:58:40] [Netty Server IO #5/INFO]: <MGlolenstine> ola[m
+[16:58:41] [Netty Server IO #5/INFO]: <MGlolenstine> o/[m
+[16:58:54] [Server thread/INFO]: MGlolenstine issued server command: /igspawners hand 3
+[16:58:54] [Server thread/INFO]: Kwagnus has made the advancement [Acquire Hardware]
+[16:59:15] [Server thread/INFO]: Kwagnus has made the advancement [Isn't It Iron Pick]
+[16:59:45] [Server thread/INFO]: MGlolenstine issued server command: /reload
+[16:59:45] [Server thread/INFO]: MGlolenstine: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[16:59:45] [Server thread/INFO]: MGlolenstine: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[16:59:45] [Server thread/INFO]: [[IGSpawners]] Disabling IGSpawners v1.0
+[16:59:45] [Server thread/ERROR]: Error occurred while disabling IGSpawners v1.0 (Is it up to date?)
+java.lang.TypeNotPresentException: Type xyz.mglolenstine.igspawners.Spawner not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(Unknown Source) ~[?:1.8.0_151]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source) ~[?:1.8.0_151]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source) ~[?:1.8.0_151]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Unknown Source) ~[?:1.8.0_151]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source) ~[?:1.8.0_151]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source) ~[?:1.8.0_151]
+	at sun.reflect.generics.repository.FieldRepository.getGenericType(Unknown Source) ~[?:1.8.0_151]
+	at java.lang.reflect.Field.getGenericType(Unknown Source) ~[?:1.8.0_151]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.getBoundFields(ReflectiveTypeAdapterFactory.java:158) ~[craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.create(ReflectiveTypeAdapterFactory.java:100) ~[craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at com.google.gson.Gson.getAdapter(Gson.java:423) ~[craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at com.google.gson.Gson.toJson(Gson.java:661) ~[craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at com.google.gson.Gson.toJson(Gson.java:648) ~[craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at com.google.gson.Gson.toJson(Gson.java:623) ~[craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at xyz.mglolenstine.igspawners.IGSpawners.onDisable(IGSpawners.java:69) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:353) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:421) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:414) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:455) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:698) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.Bukkit.reload(Bukkit.java:534) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:140) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:629) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1338) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1198) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(SourceFile:37) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(SourceFile:9) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_151]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+Caused by: java.lang.ClassNotFoundException: xyz.mglolenstine.igspawners.Spawner
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_151]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_151]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_151]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_151]
+	... 38 more
+[16:59:45] [Server thread/INFO]: [[IGSpawners]] Loading IGSpawners v1.0
+[16:59:45] [Server thread/INFO]: [[IGSpawners]] Enabling IGSpawners v1.0
+[16:59:45] [Server thread/ERROR]: Error occurred while enabling IGSpawners v1.0 (Is it up to date?)
+java.lang.NullPointerException: null
+	at xyz.mglolenstine.igspawners.IGSpawners.onEnable(IGSpawners.java:53) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:329) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:368) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:329) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:730) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.Bukkit.reload(Bukkit.java:534) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:140) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:629) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1338) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1198) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(SourceFile:37) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(SourceFile:9) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_151]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [craftbukkit-1.12.2.jar:git-Bukkit-809c399]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+[16:59:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:59:45] [Server thread/INFO]: MGlolenstine: [0;32;1mReload complete.[m
+[17:00:15] [Server thread/INFO]: MGlolenstine issued server command: /reload
+[17:00:15] [Server thread/INFO]: MGlolenstine: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[17:00:15] [Server thread/INFO]: MGlolenstine: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[17:00:15] [Server thread/INFO]: [[IGSpawners]] Disabling IGSpawners v1.0
+[17:00:16] [Server thread/INFO]: [[IGSpawners]] Loading IGSpawners v1.0
+[17:00:16] [Server thread/INFO]: [[IGSpawners]] Enabling IGSpawners v1.0
+[17:00:16] [Server thread/INFO]: {"spawners":[]}
+[17:00:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:00:16] [Server thread/INFO]: MGlolenstine: [0;32;1mReload complete.[m
+[17:00:21] [Server thread/INFO]: MGlolenstine issued server command: /igspawners hand 3
+[17:00:24] [Server thread/INFO]: spawner_level: 3
+[17:00:24] [Server thread/INFO]: Added spawner!
+[17:00:24] [Server thread/INFO]: spawner_level: 3
+[17:00:24] [Server thread/INFO]: Added spawner!
+[17:00:24] [Server thread/INFO]: spawner_level: 3
+[17:00:24] [Server thread/INFO]: Added spawner!
+[17:00:28] [Server thread/INFO]: spawner_level: 3
+[17:00:28] [Server thread/INFO]: Added spawner!
+[17:00:29] [Server thread/INFO]: spawner_level: 3
+[17:00:29] [Server thread/INFO]: Added spawner!
+[17:00:29] [Server thread/INFO]: spawner_level: 3
+[17:00:29] [Server thread/INFO]: Added spawner!
+[17:00:29] [Server thread/INFO]: spawner_level: 3
+[17:00:29] [Server thread/INFO]: Added spawner!
+[17:00:30] [Server thread/INFO]: spawner_level: 3
+[17:00:30] [Server thread/INFO]: Added spawner!
+[17:00:41] [Server thread/INFO]: MGlolenstine issued server command: /igspawners info
+[17:01:43] [Server thread/INFO]: Kwagnus has made the advancement [Diamonds!]
+[17:02:06] [Netty Server IO #5/INFO]: <MGlolenstine> nice :D[m
+[17:02:12] [Netty Server IO #3/INFO]: <Kwagnus> ;)[m
+[17:02:13] [Server thread/INFO]: MGlolenstine issued server command: /reload
+[17:02:13] [Server thread/INFO]: MGlolenstine: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[17:02:13] [Server thread/INFO]: MGlolenstine: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[17:02:13] [Server thread/INFO]: [[IGSpawners]] Disabling IGSpawners v1.0
+[17:02:13] [Server thread/INFO]: [[IGSpawners]] Loading IGSpawners v1.0
+[17:02:13] [Server thread/INFO]: [[IGSpawners]] Enabling IGSpawners v1.0
+[17:02:13] [Server thread/INFO]: {"spawners":[{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":262,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":261,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":260,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":259,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":258,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":257,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":256,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":255,"level":3}]}
+[17:02:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:02:13] [Server thread/INFO]: MGlolenstine: [0;32;1mReload complete.[m
+[17:02:20] [Server thread/INFO]: spawner_level: 3
+[17:02:20] [Server thread/INFO]: Added spawner!
+[17:02:20] [Server thread/INFO]: spawner_level: 3
+[17:02:20] [Server thread/INFO]: Added spawner!
+[17:02:21] [Server thread/INFO]: spawner_level: 3
+[17:02:21] [Server thread/INFO]: Added spawner!
+[17:02:22] [Server thread/INFO]: spawner_level: 3
+[17:02:22] [Server thread/INFO]: Added spawner!
+[17:02:23] [Server thread/INFO]: spawner_level: 3
+[17:02:23] [Server thread/INFO]: Added spawner!
+[17:02:23] [Server thread/INFO]: spawner_level: 3
+[17:02:23] [Server thread/INFO]: Added spawner!
+[17:02:23] [Server thread/INFO]: spawner_level: 3
+[17:02:23] [Server thread/INFO]: Added spawner!
+[17:02:24] [Server thread/INFO]: spawner_level: 3
+[17:02:24] [Server thread/INFO]: Added spawner!
+[17:02:25] [Server thread/INFO]: spawner_level: 3
+[17:02:25] [Server thread/INFO]: Added spawner!
+[17:02:25] [Server thread/INFO]: spawner_level: 3
+[17:02:25] [Server thread/INFO]: Added spawner!
+[17:02:27] [Server thread/INFO]: Block broken was a Mob spawner!
+[17:02:27] [Server thread/INFO]: Block broken was a Mob spawner!
+[17:02:27] [Server thread/INFO]: Block broken was a Mob spawner!
+[17:02:27] [Server thread/INFO]: Block broken was a Mob spawner!
+[17:02:27] [Server thread/INFO]: Block broken was a Mob spawner!
+[17:02:28] [Server thread/INFO]: Block broken was a Mob spawner!
+[17:02:28] [Server thread/INFO]: Block broken was a Mob spawner!
+[17:02:29] [Server thread/INFO]: Block broken was a Mob spawner!
+[17:02:29] [Server thread/INFO]: Block broken was a Mob spawner!
+[17:02:30] [Server thread/INFO]: Block broken was a Mob spawner!
+[17:02:38] [Server thread/INFO]: Kwagnus issued server command: /tp ~ 70 ~
+[17:02:38] [Server thread/INFO]: [Kwagnus: Teleported Kwagnus to 211.41496960163235, 70.0, 254.69999998807907]
+[17:04:39] [Server thread/INFO]: MGlolenstine issued server command: /reload
+[17:04:39] [Server thread/INFO]: MGlolenstine: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[17:04:39] [Server thread/INFO]: MGlolenstine: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[17:04:39] [Server thread/INFO]: [[IGSpawners]] Disabling IGSpawners v1.0
+[17:04:40] [Server thread/INFO]: [[IGSpawners]] Loading IGSpawners v1.0
+[17:04:40] [Server thread/INFO]: [[IGSpawners]] Enabling IGSpawners v1.0
+[17:04:40] [Server thread/INFO]: {"spawners":[{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":262,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":261,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":260,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":259,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":258,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":257,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":256,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":255,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":262,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":261,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":260,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":259,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":258,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":257,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":256,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":254,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":255,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":253,"level":3}]}
+[17:04:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:04:40] [Server thread/INFO]: MGlolenstine: [0;32;1mReload complete.[m
+[17:04:44] [Server thread/INFO]: Kwagnus issued server command: /tp 224 65 242
+[17:04:44] [Server thread/INFO]: [Kwagnus: Teleported Kwagnus to 224.5, 65.0, 242.5]
+[17:05:34] [Server thread/INFO]: Kwagnus issued server command: /tp 224 65 242
+[17:05:34] [Server thread/INFO]: [Kwagnus: Teleported Kwagnus to 224.5, 65.0, 242.5]
+[17:06:00] [Server thread/INFO]: MGlolenstine issued server command: /reload
+[17:06:00] [Server thread/INFO]: MGlolenstine: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[17:06:00] [Server thread/INFO]: MGlolenstine: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[17:06:00] [Server thread/INFO]: [[IGSpawners]] Disabling IGSpawners v1.0
+[17:06:00] [Server thread/INFO]: [[IGSpawners]] Loading IGSpawners v1.0
+[17:06:00] [Server thread/INFO]: [[IGSpawners]] Enabling IGSpawners v1.0
+[17:06:00] [Server thread/INFO]: {"spawners":[{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":262,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":261,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":260,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":259,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":258,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":257,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":256,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":255,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":262,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":261,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":260,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":259,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":258,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":257,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":256,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":254,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":255,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":253,"level":3}]}
+[17:06:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:06:00] [Server thread/INFO]: MGlolenstine: [0;32;1mReload complete.[m
+[17:06:06] [Server thread/INFO]: MGlolenstine has made the advancement [Stone Age]
+[17:06:09] [Server thread/INFO]: MGlolenstine has made the advancement [Getting an Upgrade]
+[17:06:26] [Server thread/INFO]: MGlolenstine issued server command: /igspawners clear
+[17:06:32] [Server thread/INFO]: MGlolenstine issued server command: /igspawners info
+[17:06:38] [Netty Server IO #5/INFO]: <MGlolenstine> o/[m
+[17:06:48] [Netty Server IO #5/INFO]: <MGlolenstine> hello :D[m
+[17:06:51] [Netty Server IO #3/INFO]: <Kwagnus> hello ;)[m
+[17:06:59] [Netty Server IO #5/INFO]: <MGlolenstine> what ya doing?[m
+[17:07:09] [Netty Server IO #3/INFO]: <Kwagnus> building to you[m
+[17:07:13] [Netty Server IO #5/INFO]: <MGlolenstine> I can see that :D[m
+[17:07:19] [Netty Server IO #3/INFO]: <Kwagnus> no block D:[m
+[17:07:28] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:07:28] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:07:28] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:07:28] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:07:29] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:07:29] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:07:29] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:07:29] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:07:29] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:07:29] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:07:30] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:07:30] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:07:30] [Server thread/INFO]: Kwagnus fell from a high place
+[17:07:30] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:07:30] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:07:34] [Netty Server IO #5/INFO]: <MGlolenstine> oh... rip[m
+[17:07:49] [Server thread/INFO]: spawner_level: 3
+[17:07:49] [Server thread/INFO]: Added spawner!
+[17:07:50] [Server thread/INFO]: Block broken was a Mob spawner!
+[17:07:57] [Server thread/INFO]: MGlolenstine issued server command: /igspawners info
+[17:08:05] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:05] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:06] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:06] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:06] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:06] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:07] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:07] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:07] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:07] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:07] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:07] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:08] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:08] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:08] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:08] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:09] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:09] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:09] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:09] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:09] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:09] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:10] [Server thread/INFO]: MGlolenstine issued server command: /give Kwagnus stone 64
+[17:08:10] [Server thread/INFO]: [MGlolenstine: Given [Stone] * 64 to Kwagnus]
+[17:08:17] [Netty Server IO #5/INFO]: <MGlolenstine> byeeee[m
+[17:08:19] [Netty Server IO #3/INFO]: <Kwagnus> bye[m
+[17:09:17] [Netty Server IO #5/INFO]: <MGlolenstine> what's your fps?[m
+[17:09:24] [Netty Server IO #3/INFO]: <Kwagnus> 1500[m
+[17:09:49] [Netty Server IO #3/INFO]: <Kwagnus> can build[m
+[17:09:51] [Netty Server IO #3/INFO]: <Kwagnus> 256[m
+[17:10:11] [Netty Server IO #3/INFO]: <Kwagnus> can u make 1 water block?[m
+[17:10:20] [Netty Server IO #5/INFO]: <MGlolenstine> directly underneath?[m
+[17:10:26] [Netty Server IO #5/INFO]: <MGlolenstine> or on this block?[m
+[17:10:28] [Netty Server IO #3/INFO]: <Kwagnus> yeah[m
+[17:10:36] [Netty Server IO #3/INFO]: <Kwagnus> underneath[m
+[17:10:44] [Netty Server IO #3/INFO]: <Kwagnus> nononon[m
+[17:10:47] [Server thread/INFO]: Kwagnus fell from a high place
+[17:10:48] [Server thread/INFO]: MGlolenstine issued server command: /tp Kwagnus MGlolenstine
+[17:10:51] [Netty Server IO #3/INFO]: <Kwagnus> xD[m
+[17:10:52] [Server thread/INFO]: MGlolenstine issued server command: /tp Kwagnus MGlolenstine
+[17:10:52] [Server thread/INFO]: [MGlolenstine: Teleported Kwagnus to MGlolenstine]
+[17:11:01] [Netty Server IO #5/INFO]: <MGlolenstine> you wanna play dropper?[m
+[17:11:04] [Netty Server IO #3/INFO]: <Kwagnus> yeah[m
+[17:11:12] [Server thread/INFO]: MGlolenstine issued server command: /spawnpoint Kwagnus
+[17:11:12] [Server thread/INFO]: [MGlolenstine: Set Kwagnus's spawn point to (253, 256, 235)]
+[17:11:18] [Netty Server IO #5/INFO]: <MGlolenstine> lemme try something[m
+[17:11:21] [Server thread/INFO]: MGlolenstine issued server command: /kill Kwagnus
+[17:11:21] [Server thread/INFO]: Kwagnus fell out of the world
+[17:11:21] [Server thread/INFO]: [MGlolenstine: Killed Kwagnus]
+[17:11:24] [Netty Server IO #5/INFO]: <MGlolenstine> ok :D[m
+[17:11:30] [Netty Server IO #5/INFO]: <MGlolenstine> infinite amount of tries :D[m
+[17:11:45] [Netty Server IO #3/INFO]: <Kwagnus> where is the water?[m
+[17:12:06] [Server thread/INFO]: Kwagnus fell from a high place
+[17:12:17] [Server thread/INFO]: Kwagnus fell from a high place
+[17:12:25] [Netty Server IO #5/INFO]: <MGlolenstine> see? you need no water :D[m
+[17:12:27] [Server thread/INFO]: Kwagnus fell from a high place
+[17:12:35] [Netty Server IO #3/INFO]: <Kwagnus> xd[m
+[17:12:43] [Server thread/INFO]: Kwagnus fell from a high place
+[17:12:47] [Netty Server IO #3/INFO]: <Kwagnus> almost[m
+[17:12:51] [Netty Server IO #5/INFO]: <MGlolenstine> sooo close[m
+[17:12:56] [Server thread/INFO]: Kwagnus fell from a high place
+[17:13:08] [Netty Server IO #5/INFO]: <MGlolenstine> wow :D[m
+[17:13:09] [Netty Server IO #3/INFO]: <Kwagnus> yay![m
+[17:13:11] [Netty Server IO #5/INFO]: <MGlolenstine> first try :D[m
+[17:13:34] [Server thread/INFO]: Kwagnus issued server command: /kill
+[17:13:34] [Server thread/INFO]: Kwagnus fell out of the world
+[17:13:34] [Server thread/INFO]: [Kwagnus: Killed Kwagnus]
+[17:13:44] [Server thread/INFO]: Kwagnus fell from a high place
+[17:13:52] [Server thread/INFO]: Kwagnus fell from a high place
+[17:14:24] [Server thread/INFO]: Kwagnus fell from a high place
+[17:14:33] [Server thread/INFO]: Kwagnus fell from a high place
+[17:14:36] [Netty Server IO #5/INFO]: <MGlolenstine> ola[m
+[17:14:46] [Server thread/INFO]: Kwagnus fell from a high place
+[17:14:59] [Server thread/INFO]: Kwagnus fell from a high place
+[17:15:07] [Server thread/INFO]: Kwagnus fell from a high place
+[17:15:10] [Server thread/INFO]: Kwagnus issued server command: /gmc
+[17:15:10] [Server thread/INFO]: MGlolenstine issued server command: /reload
+[17:15:10] [Server thread/INFO]: MGlolenstine: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[17:15:10] [Server thread/INFO]: MGlolenstine: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[17:15:10] [Server thread/INFO]: [[IGSpawners]] Disabling IGSpawners v1.0
+[17:15:11] [Server thread/INFO]: [[IGSpawners]] Loading IGSpawners v1.0
+[17:15:11] [Server thread/INFO]: [[IGSpawners]] Enabling IGSpawners v1.0
+[17:15:11] [Server thread/INFO]: {"spawners":[{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":245,"y":65,"z":270,"level":3}]}
+[17:15:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:15:11] [Server thread/INFO]: MGlolenstine: [0;32;1mReload complete.[m
+[17:15:13] [Server thread/INFO]: Kwagnus issued server command: /gamemode c
+[17:15:13] [Server thread/INFO]: [Kwagnus: Set own game mode to Creative Mode]
+[17:15:20] [Server thread/INFO]: Kwagnus has reached the goal [Sky's the Limit]
+[17:15:22] [Server thread/INFO]: Kwagnus issued server command: /gamemode s
+[17:15:22] [Server thread/INFO]: [Kwagnus: Set own game mode to Survival Mode]
+[17:15:24] [Server thread/INFO]: MGlolenstine issued server command: /igspawners info
+[17:15:27] [Netty Server IO #5/INFO]: <MGlolenstine> nice :D[m
+[17:15:31] [Server thread/INFO]: Kwagnus fell from a high place
+[17:15:31] [Server thread/INFO]: spawner_level: 3
+[17:15:31] [Server thread/INFO]: Added spawner!
+[17:15:37] [Server thread/INFO]: Block broken at Location{world=CraftWorld{name=world},x=244.0,y=66.0,z=260.0,pitch=0.0,yaw=0.0} was a Mob spawner!
+[17:15:37] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=244.0,y=66.0,z=260.0,pitch=0.0,yaw=0.0}
+[17:15:37] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=244.0,y=66.0,z=260.0,pitch=0.0,yaw=0.0}
+[17:15:39] [Server thread/INFO]: Kwagnus fell from a high place
+[17:15:58] [Server thread/INFO]: spawner_level: 3
+[17:15:58] [Server thread/INFO]: Added spawner!
+[17:15:59] [Server thread/INFO]: Block broken at Location{world=CraftWorld{name=world},x=253.0,y=65.0,z=249.0,pitch=0.0,yaw=0.0} was a Mob spawner!
+[17:15:59] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=253.0,y=65.0,z=249.0,pitch=0.0,yaw=0.0}
+[17:15:59] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=253.0,y=65.0,z=249.0,pitch=0.0,yaw=0.0}
+[17:15:59] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=253.0,y=65.0,z=249.0,pitch=0.0,yaw=0.0}
+[17:17:35] [Server thread/INFO]: MGlolenstine issued server command: /tp MGlolenstine Kwagnus
+[17:17:35] [Server thread/INFO]: [MGlolenstine: Teleported MGlolenstine to Kwagnus]
+[17:17:41] [Server thread/INFO]: MGlolenstine issued server command: /tp MGlolenstine Kwagnus
+[17:17:41] [Server thread/INFO]: [MGlolenstine: Teleported MGlolenstine to Kwagnus]
+[17:17:45] [Server thread/INFO]: Kwagnus issued server command: /gamemode c
+[17:17:45] [Server thread/INFO]: [Kwagnus: Set own game mode to Creative Mode]
+[17:17:51] [Netty Server IO #3/INFO]: <Kwagnus> i stop ;)[m
+[17:17:56] [Netty Server IO #5/INFO]: <MGlolenstine> you don't have to :D[m
+[17:18:00] [Netty Server IO #3/INFO]: <Kwagnus> gonna take a shit[m
+[17:18:04] [Netty Server IO #3/INFO]: <Kwagnus> brb[m
+[17:18:18] [Server thread/INFO]: MGlolenstine issued server command: /reload
+[17:18:18] [Server thread/INFO]: MGlolenstine: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[17:18:18] [Server thread/INFO]: MGlolenstine: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[17:18:18] [Server thread/INFO]: [[IGSpawners]] Disabling IGSpawners v1.0
+[17:18:18] [Server thread/INFO]: [[IGSpawners]] Loading IGSpawners v1.0
+[17:18:18] [Server thread/INFO]: [[IGSpawners]] Enabling IGSpawners v1.0
+[17:18:18] [Server thread/INFO]: {"spawners":[{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":245,"y":65,"z":270,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":244,"y":66,"z":260,"level":3},{"world":"93975412-a61a-4bb6-8f12-7a66d8dbd336","x":253,"y":65,"z":249,"level":3}]}
+[17:18:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:18:18] [Server thread/INFO]: MGlolenstine: [0;32;1mReload complete.[m
+[17:18:23] [Server thread/INFO]: spawner_level: 3
+[17:18:23] [Server thread/INFO]: Added spawner!
+[17:18:27] [Server thread/INFO]: Block broken at Location{world=CraftWorld{name=world},x=244.0,y=66.0,z=261.0,pitch=0.0,yaw=0.0} was a Mob spawner!
+[17:18:27] [Server thread/INFO]: This Mob spawner was registered!
+[17:18:27] [Server thread/INFO]: Removed level 3 spawner!
+[17:18:35] [Server thread/INFO]: MGlolenstine issued server command: /igspawners info
+[17:18:38] [Server thread/INFO]: MGlolenstine issued server command: /igspawners
+[17:18:39] [Server thread/INFO]: MGlolenstine issued server command: /igspawners clear
+[17:18:43] [Server thread/INFO]: MGlolenstine issued server command: /igspawners info
+[17:18:47] [Server thread/INFO]: MGlolenstine issued server command: /reload
+[17:18:47] [Server thread/INFO]: MGlolenstine: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[17:18:47] [Server thread/INFO]: MGlolenstine: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[17:18:47] [Server thread/INFO]: [[IGSpawners]] Disabling IGSpawners v1.0
+[17:18:47] [Server thread/INFO]: [[IGSpawners]] Loading IGSpawners v1.0
+[17:18:47] [Server thread/INFO]: [[IGSpawners]] Enabling IGSpawners v1.0
+[17:18:47] [Server thread/INFO]: {"spawners":[]}
+[17:18:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:18:47] [Server thread/INFO]: MGlolenstine: [0;32;1mReload complete.[m
+[17:18:50] [Server thread/INFO]: spawner_level: 3
+[17:18:50] [Server thread/INFO]: Added spawner!
+[17:18:50] [Server thread/INFO]: spawner_level: 3
+[17:18:50] [Server thread/INFO]: Added spawner!
+[17:18:50] [Server thread/INFO]: spawner_level: 3
+[17:18:50] [Server thread/INFO]: Added spawner!
+[17:18:51] [Server thread/INFO]: spawner_level: 3
+[17:18:51] [Server thread/INFO]: Added spawner!
+[17:18:51] [Server thread/INFO]: spawner_level: 3
+[17:18:51] [Server thread/INFO]: Added spawner!
+[17:18:55] [Server thread/INFO]: MGlolenstine issued server command: /igspawners info
+[17:18:56] [Server thread/INFO]: Block broken at Location{world=CraftWorld{name=world},x=244.0,y=66.0,z=258.0,pitch=0.0,yaw=0.0} was a Mob spawner!
+[17:18:56] [Server thread/INFO]: This Mob spawner was registered!
+[17:18:56] [Server thread/INFO]: Removed level 3 spawner!
+[17:18:56] [Server thread/INFO]: Block broken at Location{world=CraftWorld{name=world},x=244.0,y=66.0,z=259.0,pitch=0.0,yaw=0.0} was a Mob spawner!
+[17:18:56] [Server thread/INFO]: This Mob spawner was registered!
+[17:18:56] [Server thread/INFO]: Removed level 3 spawner!
+[17:18:56] [Server thread/INFO]: Block broken at Location{world=CraftWorld{name=world},x=244.0,y=66.0,z=260.0,pitch=0.0,yaw=0.0} was a Mob spawner!
+[17:18:56] [Server thread/INFO]: This Mob spawner was registered!
+[17:18:56] [Server thread/INFO]: Removed level 3 spawner!
+[17:18:56] [Server thread/INFO]: Block broken at Location{world=CraftWorld{name=world},x=244.0,y=66.0,z=261.0,pitch=0.0,yaw=0.0} was a Mob spawner!
+[17:18:56] [Server thread/INFO]: This Mob spawner was registered!
+[17:18:56] [Server thread/INFO]: Removed level 3 spawner!
+[17:18:56] [Server thread/INFO]: Block broken at Location{world=CraftWorld{name=world},x=244.0,y=66.0,z=262.0,pitch=0.0,yaw=0.0} was a Mob spawner!
+[17:18:56] [Server thread/INFO]: This Mob spawner was registered!
+[17:18:56] [Server thread/INFO]: Removed level 3 spawner!
+[17:18:57] [Server thread/INFO]: MGlolenstine issued server command: /igspawners info
+[17:19:12] [Server thread/INFO]: MGlolenstine issued server command: /kill @e[type=pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:12] [Server thread/INFO]: [MGlolenstine: Killed Pig]
+[17:19:15] [Server thread/INFO]: MGlolenstine issued server command: /kill @e[type=items]
+[17:19:17] [Server thread/INFO]: MGlolenstine issued server command: /kill @e[type=item]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.tile.stone.stone]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.elytra]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.egg]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.egg]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.porkchopRaw]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.egg]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.item.egg]
+[17:19:17] [Server thread/INFO]: [MGlolenstine: Killed item.tile.rail]
+[17:34:41] [Server thread/INFO]: MGlolenstine lost connection: Disconnected
+[17:34:41] [Server thread/INFO]: MGlolenstine left the game

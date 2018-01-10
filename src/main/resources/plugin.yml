@@ -1,0 +1,10 @@
+name: IGSpawners
+version: ${project.version}
+main: xyz.mglolenstine.igspawners.IGSpawners
+prefix: [IGSpawners]
+authors: [MGlolenstine]
+description: Spawn Iron golems of different levels
+commands:
+  igspawners:
+    usage: /igspawners
+    description: Shows IGSpawner's help
