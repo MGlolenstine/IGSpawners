@@ -33,7 +33,9 @@ public class Command implements CommandExecutor {
                 int level = Integer.parseInt(args[1]);
                 item.addUnsafeEnchantment(ench, level);
                 ItemMeta im = item.getItemMeta();
-                if (level == 1) {
+                if(level == 0) {
+                    im.setDisplayName(ChatColor.GRAY + "Iron Golem Spawner");
+                }else if (level == 1) {
                     im.setDisplayName(ChatColor.GOLD + "Golden" + ChatColor.GRAY + " Golem Spawner");
                 } else if (level == 2) {
                     im.setDisplayName(ChatColor.AQUA + "Diamond" + ChatColor.GRAY + " Golem Spawner");

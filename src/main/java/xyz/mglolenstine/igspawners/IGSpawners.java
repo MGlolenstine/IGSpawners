@@ -22,9 +22,11 @@ public final class IGSpawners extends JavaPlugin {
     static Level ench = new Level(69);
     File spawner_storage = new File("plugins/IGSpawners/spawner_locations.json");
     static List<Spawner> spawners = new ArrayList<>();
+    static IGSpawners plugin;
 
     @Override
     public void onEnable() {
+        plugin = this;
         // Plugin startup logic
         registerEnchantment();
         spawner_storage = new File("plugins/IGSpawners/spawner_locations.json");
